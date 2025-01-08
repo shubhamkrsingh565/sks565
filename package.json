@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shubhamkrsingh565.github.io/sks565",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
