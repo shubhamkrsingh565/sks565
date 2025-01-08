@@ -1,0 +1,52 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://shubhamkrsingh565.github.io/sks565",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.15.2",
+    "@mantine/form": "^7.15.2",
+    "@mantine/hooks": "^7.15.2",
+    "@tabler/icons-react": "^3.26.0",
+    "aos": "^2.3.4",
+    "firebase": "^11.1.0",
+    "next-themes": "^0.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.1",
+    "react-icon-cloud": "^4.1.7",
+    "react-pdf": "^9.2.1",
+    "tailwind-merge": "^2.6.0",
+    "typewriter-effect": "^2.21.0",
+    "vanta": "^0.5.24"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/aos": "^3.0.7",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.14.0",
+    "postcss": "^8.4.49",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5"
+  }
+}
