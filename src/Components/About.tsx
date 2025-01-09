@@ -70,7 +70,6 @@ const About = () => {
   //     if (trunk) trunk.destroy();
   //   };
   // }, []);
-
   return (
     <>
       <div
