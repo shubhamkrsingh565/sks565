@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandTwitter } from "@tabler/icons-react";
 
 const Info = {
     name: "Shubham Kumar Singh",
@@ -8,15 +8,6 @@ const Info = {
 }
 
 const ProjectInfo = [
-    {
-        title: "Shopping E-comm App",
-        desc: "The Shopping Website is a fully responsive e-commerce platform built using React, Redux, TypeScript, TailwindCSS, Node.js, and MongoDB, offering a seamless shopping experience across all devices. It includes features like adding items to the cart, sorting products by various criteria, and a secure billing process with form validation for address and payment details. Users can browse, search for specific products, and manage their purchases effortlessly, ensuring accuracy and security at every step. The platform also supports dynamic inventory management and real-time updates, enhancing usability and reliability. Its intuitive interface, robust state management, and efficient backend integration provide a fast and user-friendly experience. Designed for scalability and maintainability, the application is a perfect fit for modern online retail businesses.",
-        image: "shopping.png",
-        live: true,
-        technologies: ["React", "Tailwind", "Redux", "Heroicons", "TailwinCSS", "JavaScript", "TypeScript", "Node Js"],
-        link: "https://go-eshopping.netlify.app/",
-        github: "https://go-eshopping.netlify.app/"
-    },
     {
         title: "Employee Management System",
         desc: "The Employee Management System is a modern, fully responsive application built using React, TailwindCSS, Node.js, and MongoDB, designed to streamline employee management processes. It features secure user authentication with login, registration, and logout functionalities for both administrators and employees. Admin can efficiently manage employee records, including adding, updating, and removing employees, while employees can view and update their profiles. The system supports advanced search and sorting options to locate specific employee data quickly. With real-time validations for inputs like personal details and role assignments, the platform ensures data accuracy and security. The application provides a seamless and user-friendly experience, offering features like role-based access control, department management, and attendance tracking. Its sleek design and scalable architecture make it an ideal solution for modern organizations to enhance workforce management and operational efficiency.",
@@ -45,6 +36,15 @@ const ProjectInfo = [
         github: "https://github.com/shubhamkrsingh565/travel-website"
     },
     {
+        title: "Shopping E-comm App",
+        desc: "The Shopping Website is a fully responsive e-commerce platform built using React, Redux, TypeScript, TailwindCSS, Node.js, and MongoDB, offering a seamless shopping experience across all devices. It includes features like adding items to the cart, sorting products by various criteria, and a secure billing process with form validation for address and payment details. Users can browse, search for specific products, and manage their purchases effortlessly, ensuring accuracy and security at every step. The platform also supports dynamic inventory management and real-time updates, enhancing usability and reliability. Its intuitive interface, robust state management, and efficient backend integration provide a fast and user-friendly experience. Designed for scalability and maintainability, the application is a perfect fit for modern online retail businesses.",
+        image: "shopping2.png",
+        live: true,
+        technologies: ["React", "Tailwind", "Redux", "Heroicons", "TailwinCSS", "JavaScript", "TypeScript", "Node Js"],
+        link: "https://go-eshopping.netlify.app/",
+        github: "https://go-eshopping.netlify.app/"
+    },
+    {
         title: "ATM Management System",
         desc: "ATM Management System is a robust desktop application built using Java and JDBC, designed to optimize banking operations. The system allows administrators to securely manage customer accounts, property records, and transaction histories with full CRUD functionality. Featuring an intuitive interface, it ensures efficient processing of account activities, property tracking, and transactional data. This application enhances operational efficiency while maintaining data integrity and security, making banking administration seamless and reliable.",
         image: "atm.jpg",
@@ -58,7 +58,7 @@ const ProjectInfo = [
         desc: "The Portfolio Website is a sleek and fully responsive platform designed using only HTML and CSS to showcase personal or professional achievements. It features an intuitive layout with sections for an about page, skills, projects, and contact information, providing visitors with a clear overview of the creator's work and expertise. With elegant styling, responsive design, and smooth navigation, the website ensures a seamless user experience across devices. This lightweight and visually appealing portfolio is ideal for creating a strong online presence while highlighting individuality and professional skills.",
         image: "htmlportfolio.gif",
         live: false,
-        technologies: ["React", "Tailwind", "Ace Editor"],
+        technologies: ["HTML5", "CSS3"],
         link: "https://anuranjan-kumar.netlify.app/",
         github: "https://github.com/shubhamkrsingh565/anuranjan"
     }
@@ -80,14 +80,14 @@ const SkillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
+        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass"]
     }
 ]
 const socialLinks = [
     { link: "https://github.com/shubhamkrsingh565", icon: IconBrandGithub },
     { link: "https://www.linkedin.com/in/shubhamkrsingh565", icon: IconBrandLinkedin },
-    { link: "https://www.instagram.com/shubhamksingh_", icon: IconBrandInstagram }, 
-    { link: "https://www.youtube.com/@shubhamkrsingh", icon: IconBrandYoutube },
+    { link: "https://www.instagram.com/shubhamkrsingh_", icon: IconBrandInstagram }, 
+    { link: "https://twitter.com/shubhamksingh56", icon: IconBrandTwitter },
     { link: "https://www.leetcode.com/u/shubhamkrsingh565", icon: IconBrandLeetcode }
 ];
 
