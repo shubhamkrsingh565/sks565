@@ -9,15 +9,6 @@ const Info = {
 
 const ProjectInfo = [
     {
-        title: "Employee Management System",
-        desc: "The Employee Management System is a modern, fully responsive application built using React, TailwindCSS, Node.js, and MongoDB, designed to streamline employee management processes. It features secure user authentication with login, registration, and logout functionalities for both administrators and employees. Admin can efficiently manage employee records, including adding, updating, and removing employees, while employees can view and update their profiles. The system supports advanced search and sorting options to locate specific employee data quickly. With real-time validations for inputs like personal details and role assignments, the platform ensures data accuracy and security. The application provides a seamless and user-friendly experience, offering features like role-based access control, department management, and attendance tracking. Its sleek design and scalable architecture make it an ideal solution for modern organizations to enhance workforce management and operational efficiency.",
-        image: "ems.png",
-        live: true,
-        technologies: ["React", "Redux", "LocalStorage", "Tailwind", "Tabler-Icons", "Firebase"],
-        link: "https://e-management-system.vercel.app/",
-        github: "https://github.com/shubhamkrsingh565/ems"
-    },
-    {
         title: "Meal Mates Food App",
         desc: "The Food Delivery App is a modern, fully responsive platform built using React, TailwindCSS, Node.js, and MongoDB, designed to provide a seamless food ordering and delivery experience across all devices. It features secure user authentication with login, registration, and logout functionalities for customers and delivery partners. Customers can browse restaurants, search for specific dishes, add items to their cart, and place orders with a smooth checkout process that includes address and payment validation. Delivery partners can manage delivery assignments, update order statuses, and track earnings in real time. The app supports advanced sorting and filtering options, such as cuisine type, price range, and customer ratings, ensuring users can easily find what they need. With its sleek design, efficient state management, and scalable backend, the Food Delivery App is an all-in-one solution for modern food delivery services, enhancing user satisfaction and operational efficiency.",
         image: "Meat-mates.png",
@@ -25,6 +16,24 @@ const ProjectInfo = [
         technologies: ["React", "Redux", "Tailwind", "Tabler-Icons", "TypeScript", "JavaScript"],
         link: "https://mealmatesapp.netlify.app/",
         github: "https://github.com/shubhamkrsingh565/meal-mates-Food-App"
+    },
+    {
+        title: "Github Profile Finder",
+        desc: `A lightweight web app to search for GitHub usernames and explore user profiles. Perfect for finding collaborators or viewing code contributions. Features\n\n🔍 Search for GitHub users by username\n🎮 Display user details including avatar, bio, repositories, followers, and following count\n📱 Responsive and minimal UI with Tailwind CSS\n🌐 Fetch API for making requests to GitHub's REST API\n⚡ Lightweight and fast using Vite`,
+        image: "gitprofilefinder.png",
+        live: true,
+        technologies: ["React", "React Icons", "Tailwind CSS", "Fetch API", "JavaScript"],
+        link: "https://github-profile-search565.vercel.app/",
+        github: "https://github.com/shubhamkrsingh565/github-profile-searcher"
+    },
+    {
+        title: "EMS System",
+        desc: "The Employee Management System is a modern, fully responsive application built using React, TailwindCSS, Node.js, and MongoDB, designed to streamline employee management processes. It features secure user authentication with login, registration, and logout functionalities for both administrators and employees. Admin can efficiently manage employee records, including adding, updating, and removing employees, while employees can view and update their profiles. The system supports advanced search and sorting options to locate specific employee data quickly. With real-time validations for inputs like personal details and role assignments, the platform ensures data accuracy and security. The application provides a seamless and user-friendly experience, offering features like role-based access control, department management, and attendance tracking. Its sleek design and scalable architecture make it an ideal solution for modern organizations to enhance workforce management and operational efficiency.",
+        image: "ems.png",
+        live: true,
+        technologies: ["React", "Redux", "LocalStorage", "Tailwind", "Tabler-Icons", "Firebase"],
+        link: "https://e-management-system.vercel.app/",
+        github: "https://github.com/shubhamkrsingh565/ems"
     },
     {
         title: "Travel Website",
@@ -67,12 +76,14 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
+        // skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
+        skills: ["HTML", "CSS", "JavaScript", "React JS",  "Redux", "Tailwind CSS", "Material UI", "Bootstrap"
         ]
     },
     {
         title: "Backend",
-        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
+        // skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
+        skills: ["Node JS", "Express JS", "MySQL", "MongoDB", "Firebase"]
     },
     {
         title: "Languages",
@@ -87,7 +98,7 @@ const socialLinks = [
     { link: "https://github.com/shubhamkrsingh565", icon: IconBrandGithub },
     { link: "https://www.linkedin.com/in/shubhamkrsingh565", icon: IconBrandLinkedin },
     { link: "https://www.instagram.com/shubhamkrsingh_", icon: IconBrandInstagram }, 
-    { link: "https://twitter.com/shubhamksingh56", icon: IconBrandTwitter },
+    { link: "https://twitter.com/ssingh565", icon: IconBrandTwitter },
     { link: "https://www.leetcode.com/u/shubhamkrsingh565", icon: IconBrandLeetcode }
 ];
 
