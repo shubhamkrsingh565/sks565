@@ -9,6 +9,15 @@ const Info = {
 
 const ProjectInfo = [
     {
+        title: "Postly App",
+        desc: "Postly is a Twitter-inspired social media app built with MERN, Next.js, Clerk, Prisma, and PostgreSQL. It features user authentication, profile management, follower/following system, post creation and deletion, and real-time engagement through likes and comments. Designed for performance and scalability, Postly demonstrates strong full-stack development skills while delivering a modern, responsive, and interactive social networking experience.",
+        image: "postly.png",
+        live: true,
+        technologies: ["React", "Next", "Tailwind", "PostgreSQL", "Prisma", "Clerk", "TypeScript", "JavaScript"],
+        link: "https://postly-social-app.vercel.app/",
+        github: "https://github.com/shubhamkrsingh565/postly-social-app"
+    },
+    {
         title: "Meal Mates Food App",
         desc: "The Food Delivery App is a modern, fully responsive platform built using React, TailwindCSS, Node.js, and MongoDB, designed to provide a seamless food ordering and delivery experience across all devices. It features secure user authentication with login, registration, and logout functionalities for customers and delivery partners. Customers can browse restaurants, search for specific dishes, add items to their cart, and place orders with a smooth checkout process that includes address and payment validation. Delivery partners can manage delivery assignments, update order statuses, and track earnings in real time. The app supports advanced sorting and filtering options, such as cuisine type, price range, and customer ratings, ensuring users can easily find what they need. With its sleek design, efficient state management, and scalable backend, the Food Delivery App is an all-in-one solution for modern food delivery services, enhancing user satisfaction and operational efficiency.",
         image: "Meat-mates.png",
